@@ -164,7 +164,7 @@ const ThirdStep = ({
       </Text>
       <Text fontSize={["sm", "lg", "xl"]} color="red.500">
         {localPassword !== localPassword2
-          ? "Las constraseñas deben coincidir"
+          ? "Las contraseñas deben coincidir"
           : ""}
       </Text>
       <Center paddingTop="2%">

@@ -246,6 +246,7 @@ const UserView = ({ userInfo }) => {
             label="CONTENIDO ADICIONAL"
             name="additionalContent"
             register={register}
+            InputComponent={Textarea}
             errors={errors}
             required={false}
             errorMsg="Se debe ingresar el hash completo de 40 caracteres"
